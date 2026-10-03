@@ -14,8 +14,6 @@ O MoveUp foi desenvolvido como um site para reunir informações sobre atividade
 
 A página apresenta atividades como musculação, corrida, ciclismo, alongamento e funcional. Também possui áreas destinadas ao acompanhamento da evolução, descoberta de novos desafios, planos de acesso, depoimento de usuário e conteúdos em formato de blog.
 
-O projeto possui uma interface visual moderna, com destaque para a cor laranja e elementos organizados em seções para facilitar a navegação.
-
 ---
 
 ## 3. Objetivo
@@ -45,14 +43,14 @@ O projeto foi desenvolvido utilizando as seguintes tecnologias:
 
 - **HTML5** — estruturação das páginas e conteúdos;
 - **CSS3** — estilização e identidade visual;
-- **Bootstrap 5.3.8** — utilização do sistema de grid e componentes responsivos;
+- **Bootstrap 5** — utilização do sistema de grid e componentes responsivos;
 - **Phosphor Icons** — utilização de ícones na interface.
 
 ### Dependências externas
 
 O projeto utiliza:
 
-- Bootstrap 5.3.8 via CDN;
+- Bootstrap 5 via CDN;
 - Phosphor Icons via CDN.
 
 ---
@@ -165,7 +163,7 @@ São utilizadas classes responsivas como:
 - `order-2`;
 - `order-lg-1`.
 
-Também é utilizado o `meta viewport`, permitindo que a página seja exibida adequadamente em dispositivos móveis.
+Permitindo que a página seja exibida adequadamente em dispositivos móveis.
 
 ---
 
@@ -206,7 +204,6 @@ Durante o desenvolvimento do site, alguns pontos exigiram atenção:
 
 - Organizar uma quantidade significativa de informações em uma única página;
 - Estruturar as diferentes seções utilizando o sistema de grid do Bootstrap;
-- Manter uma identidade visual consistente entre os diferentes componentes;
 - Adaptar a organização dos elementos para diferentes tamanhos de tela;
 - Organizar imagens, textos, cards, planos e demais componentes de maneira visualmente equilibrada.
 
@@ -220,11 +217,8 @@ Como possíveis melhorias para uma versão futura do projeto, podem ser implemen
 - Cadastro de usuários;
 - Sistema de assinatura dos planos;
 - Gerenciamento de rotinas de exercícios;
-- Registro real de atividades;
 - Acompanhamento detalhado da evolução;
 - Sistema de desafios;
-- Blog com páginas individuais para os artigos;
-- Integração funcional da newsletter;
 - Links funcionais para as redes sociais;
 - Sistema de gerenciamento de conteúdo.
 
